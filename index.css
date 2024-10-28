@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    background-color: #fdf8f4;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+    background-size: cover;
+    background-position: center;
+}
+
+#Top {
+    background-color: #BDA18A;
+    border-radius: 0;
+    max-width: 2900px;
+    padding: 30px;
+}
+
+#Top h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #222;
+    letter-spacing: 2px;
+    font-family: 'Lora', serif, Georgia, "Times New Roman", Times;
+}
+
+h2 {
+    font-size: 30px;
+    color: #222;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 4px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+ul li a {
+    color: #666;
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #BDA18A;
+}
+
+div {
+    background: white;
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 900px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 strong {
+    color: #222;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px solid #BDA18A;
+}
+
+div a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e5e5e5;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+div a:hover {
+    background-color: #222;
+    color: white;
+}
+
+#card-Hobbies h2 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e5e5e5;
+    border-radius: 30px;
+    text-align: center;
+}
